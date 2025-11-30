@@ -1,2 +1,4 @@
 "Hindi/dev_translated_full.csv" 
 "**/*_translated_full.csv" 
+"Urdu/train.json" 
+"**/*.json" 
