@@ -2,3 +2,5 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 Urdu/train.json filter=lfs diff=lfs merge=lfs -text
+Tamil/*.json filter=lfs diff=lfs merge=lfs -text
+Tamil/*_complete.csv filter=lfs diff=lfs merge=lfs -text
