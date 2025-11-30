@@ -1,0 +1,86 @@
+DETAILED MODEL EVALUATION RESULTS
+
+ENGLISH MODEL PERFORMANCE
+Exact Match: 64.95%
+F1 Score: 79.10%
+Training samples: 60772
+Validation samples: 13023
+Test samples: 13023
+
+KANNADA MODEL PERFORMANCE
+Exact Match: 40.21%
+F1 Score: 55.97%
+Training samples: 25301
+Validation samples: 5422
+Test samples: 5422
+
+COMPARISON
+EM Difference (English - Kannada): 24.74%
+F1 Difference (English - Kannada): 23.13%
+
+SAMPLE PREDICTIONS
+
+ENGLISH SAMPLES:
+
+Example 1:
+Question: When was the The English Roses published?
+Context: Madonna gave another provocative performance later that year at the 2003 MTV Video Music Awards, while singing "Hollywood" with Britney Spears, Christina Aguilera, and Missy Elliott. Madonna sparked c...
+Ground Truth: September 2003
+Prediction: September 2003
+
+Example 2:
+Question: What organization oversees India's technical education institutions?
+Context: There are 16 autonomous Indian Institutes of Technology in addition to 30 National Institutes of Technology which are Government Institutions. In addition to these there are many other Universities wh...
+Ground Truth: AICTE
+Prediction: AICTE
+
+Example 3:
+Question: What is another term for Bharatam?
+Context: Believers in Pashupatinath (mainly Hindus) are allowed to enter the temple premises, but non-Hindu visitors are allowed to view the temple only from the across the Bagmati River. The priests who perfo...
+Ground Truth: Unified India
+Prediction: Unified India
+
+Example 4:
+Question: What was Isaac Newton's belief about God  on the theory of natural law?
+Context: Page ii contains quotations by William Whewell and Francis Bacon on the theology of natural laws, harmonising science and religion in accordance with Isaac Newton's belief in a rational God who establ...
+Ground Truth: a rational God who established a law-abiding cosmos
+Prediction: rational God
+
+Example 5:
+Question: Who in medieval Europe obtained the sole rights to hunt in certain areas of a feudal territory?
+Context: In most parts of medieval Europe, the upper class obtained the sole rights to hunt in certain areas of a feudal territory. Game in these areas was used as a source of food and furs, often provided via...
+Ground Truth: the upper class
+Prediction: upper class
+
+KANNADA SAMPLES:
+
+Example 1:
+Question: ರಾಣಿ ಎಲಿಜಬೆತ್ II ಯನ್ನು ಪ್ರತಿನಿಧಿಸುವವರು ಯಾರು?
+Context: ಕೆನಡಾದ ಸಶಸ್ತ್ರ ಪಡೆಗಳ ಮುಖ್ಯ ಕಮಾಂಡರ್-ಇನ್-ಚೀಫ್ ಕೆನಡಾದ ರಾಜಕುಮಾರಿ, ರಾಣಿ ಎಲಿಜಬೆತ್ II, ಅವರು ಕೆನಡಾದ ಗವರ್ನರ್ ಜನರಲ್ ಪ್ರತಿನಿಧಿಸುತ್ತಾರೆ. ಕೆನಡಾದ ಸಶಸ್ತ್ರ ಪಡೆಗಳನ್ನು ರಕ್ಷಣಾ ಸಿಬ್ಬಂದಿ ಮುಖ್ಯಸ್ಥರು ಮುನ್ನಡೆಸುತ್ತಾರೆ, ಅವರು ಸ...
+Ground Truth: ಕೆನಡಾದ ಗವರ್ನರ್ ಜನರಲ್
+Prediction: ಗವರ್ನರ್ ಜನರಲ್
+
+Example 2:
+Question: 1880ರ ದಶಕದಲ್ಲಿ ಯಾವ ಸ್ಪರ್ಧಾತ್ಮಕ ರೈಲ್ವೆ ಕಂಪನಿ ರೈಲ್ವೆ ಮಾರ್ಗವನ್ನು ತೆರೆಯಲು ಪ್ರಯತ್ನಿಸಿತು?
+Context: 1880 ರ ದಶಕದಲ್ಲಿ ಉತ್ತರಕ್ಕೆ ಮತ್ತೊಂದು ರೈಲು ಮಾರ್ಗವನ್ನು ತೆರೆಯಲು ಪ್ರತ್ಯೇಕ ಕಂಪನಿಯಾದ ಡಿಕೋಟ್, ನ್ಯೂಬರಿ ಮತ್ತು ಸೌತ್ ಹ್ಯಾಂಪ್ಟನ್ ರೈಲ್ವೆ ಪ್ರಯತ್ನವು ಈ ಪಟ್ಟಣವನ್ನು ಒಳಗೊಳ್ಳಿತು ಮತ್ತು ಹಿಲ್ ಲೇನ್ ಪ್ರದೇಶದಲ್ಲಿ ಉಳಿದಿರುವ ಡೆಂಬ್ಮೆ...
+Ground Truth: ಡಿಕೋಟ್, ನ್ಯೂಬರಿ ಮತ್ತು ಸೌತ್ ಹ್ಯಾಂಪ್ಟನ್ ರೈಲ್ವೆ
+Prediction: ಡಿಕೋಟ್, ನ್ಯೂಬರಿ ಮತ್ತು ಸೌತ್ ಹ್ಯಾಂಪ್ಟನ್ ರೈಲ್ವೆ
+
+Example 3:
+Question: ಡೌ ವೂ ವಿರುದ್ಧ ದೇಶದ್ರೋಹ ಆರೋಪಗಳನ್ನು ಯಾರು ಮಾಡಿದರು?
+Context: ಹುವಾನ್ ಮರಣದ ನಂತರ, ಡೌ ವೂ ಮತ್ತು ಗ್ರ್ಯಾಂಡ್ ಟ್ಯುಟರ್ ಚೆನ್ ಫ್ಯಾನ್ (陳) (ಡಬ್ಲ್ಯು 168 AD) ಯುನಕ್ಸ್ ಹು ಲ್ಯಾನ್ (ಡಬ್ಲ್ಯು 172 AD), ಚಾವೊ ಜೀ (ಡಬ್ಲ್ಯು 181 AD) ಮತ್ತು ವಾಂಗ್ ಫೂ (王) ವಿರುದ್ಧ ರಾಜ್ಯಪಾಲನಾ ಪ್ರಯತ್ನವನ್ನು ಮಾಡಿದರು...
+Ground Truth: ಜನರಲ್ ಝಾಂಗ್ ಹುವಾನ್
+Prediction: ಯುನಕ್ಸ್
+
+Example 4:
+Question: ಡೌಗ್ಲಾಸ್ ವ್ಯವಹಾರದ ಕಂಪನಿಯ ಬೆಳವಣಿಗೆಯನ್ನು ಏನು ತಂದಿತು?
+Context: ಡೌಗ್ಲಾಸ್ ಅವರ ವ್ಯವಹಾರವು ವಿಶ್ವ ಸಮರ II ರ ಆರಂಭದೊಂದಿಗೆ ಖಗೋಳಶಾಸ್ತ್ರೀಯವಾಗಿ ಬೆಳೆದಿತು, 1943 ರಲ್ಲಿ 44,000 ಜನರನ್ನು ನೇಮಿಸಿಕೊಂಡಿತು. ವಾಯು ದಾಳಿಯ ಸೆಟ್ ವಿನ್ಯಾಸಕರು ವಾರ್ನರ್ ಬ್ರದರ್ಸ್ ಸ್ಟುಡಿಯೋಸ್ನಿಂದ ಕಾರ್ಖಾನೆ ಮತ್ತು ವಿಮಾನ ನ...
+Ground Truth: ವಿಶ್ವ ಸಮರ II
+Prediction: ವಿಶ್ವ ಸಮರ II ರ ಆರಂಭದೊಂದಿಗೆ ಖಗೋಳಶಾಸ್ತ್ರೀಯವಾಗಿ
+
+Example 5:
+Question: 2003ರಲ್ಲಿ ವಿಶ್ವಕಪ್ ಚಾಂಪಿಯನ್ ಆಗಲು ಯಾವ ತಂಡವನ್ನು ಮ್ಯಾನು ಸಮೋವಾ ಬಹುತೇಕ ಸೋಲಿಸಿದ್ದರು?
+Context: ರಗ್ಬಿ ಯೂನಿಯನ್ ಸಮೋವಾದಲ್ಲಿ ರಾಷ್ಟ್ರೀಯ ಕ್ರೀಡೆಯಾಗಿದೆ ಮತ್ತು ರಾಷ್ಟ್ರೀಯ ತಂಡವು ಮನು ಸಮೋವಾ ಎಂಬ ಉಚ್ಚಾರಣೆ ಹೊಂದಿದ್ದು, ಹೆಚ್ಚು ಜನಸಂಖ್ಯೆ ಹೊಂದಿರುವ ರಾಷ್ಟ್ರಗಳ ತಂಡಗಳ ವಿರುದ್ಧ ಸ್ಥಿರವಾಗಿ ಸ್ಪರ್ಧಿಸುತ್ತಿದೆ. ಸಮೋವಾ 1991 ರಿಂದ ಪ್ರತ...
+Ground Truth: ಇಂಗ್ಲೆಂಡ್
+Prediction: ಇಂಗ್ಲೆಂಡ್
+
